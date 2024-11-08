@@ -1,0 +1,17 @@
+ # Ignore Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ignore IDE/project files
+.idea/
+.vscode/
+*.swp
+
+# Ignore vendor directory (if using vendoring)
+vendor/
+
+# Ignore OS files
+.DS_Store
